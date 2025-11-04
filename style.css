@@ -1,0 +1,7 @@
+header{
+    background-image: url("assete/image-header.png");
+    padding: 200px;
+}
+ul,li{
+    display: inline-block;
+}
