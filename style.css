@@ -1,7 +1,47 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
 header{
     background-image: url("assete/image-header.png");
-    padding: 200px;
+    background-size: cover;
+    /* padding: 160px; */
+    height: 80%;
+}
+nav{
+    padding: 40px 80px;
+}
+a{
+    text-decoration: none;
+        text-align: left;
+}
+ul{
+    float: right;
+    word-spacing: 4px
 }
 ul,li{
     display: inline-block;
+    text-align: right;
+    color: white;
+}
+h1{
+    color: white;
+     font-family: "DM Sans", sans-serif;
+     font-size: 100px;
+  
+}
+strong {
+    font-size: 20px;
+  
+}
+body{
+        margin: 0
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+h2{
+        color: white;
+        
 }
