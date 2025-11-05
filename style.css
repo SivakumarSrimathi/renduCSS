@@ -1,11 +1,15 @@
 *{
     font-family: "DM Sans", sans-serif;
 }
+body{
+    background-color: black;
+    color: white;
+}
 header{
     background-image: url("assete/image-header.png");
     background-size: cover;
     /* padding: 160px; */
-    height: 80%;
+    height: 90%;
 }
 nav{
     padding: 40px 80px;
@@ -13,10 +17,11 @@ nav{
 a{
     text-decoration: none;
         text-align: left;
+        
 }
 ul{
     float: right;
-    word-spacing: 4px
+    word-spacing:12px
 }
 ul,li{
     display: inline-block;
@@ -26,11 +31,11 @@ ul,li{
 h1{
     color: white;
      font-family: "DM Sans", sans-serif;
-     font-size: 100px;
+     font-size: 90px;
   
 }
 strong {
-    font-size: 20px;
+    font-size: 40px;
   
 }
 body{
@@ -38,10 +43,68 @@ body{
 }
 
 .container{
-    width: 600px;
+    width: 520px;
     margin: auto;
 }
 h2{
         color: white;
-        
+}
+.divbtn{
+    text-align: left;
+    padding: 30px 10px;
+    padding-bottom: 200px;
+    margin-left: -25px;
+}
+.btn{
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px 10px;
+    width: 20px;
+    background-color: black;
+    color:white;
+}
+.secondaire{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.main1{
+    background-color: black;
+    color: white;
+}
+.sec1{ 
+    width: 650px;
+    margin: auto;
+padding: 100px;
+}
+.ol1{
+    font-size: 28px;
+    display: inline;
+    border: top bottom;
+
+}
+.sec2{
+     width: 700px;
+     text-align: center;
+     padding: 15px 250px
+}
+strong{
+    font-size: 28px;
+}
+.sec3{
+    background-image: url(assete/banniere-logo.png);
+    background-size: contain;
+    padding: 100px 50px;
+    text-align: center;
+}
+.sponsor{
+        word-spacing: 10px;
+}
+.bil{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-size: small;
+    padding: 5px 15px;
 }
